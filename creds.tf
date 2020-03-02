@@ -1,13 +1,26 @@
 # AWS Config
 
 variable "aws_access_key" {
-default = "AKIAWUAJVAVTYVD63M4U"
+  default = "AKIA5E32WS6UJAQPLDZ6"
 }
 
 variable "aws_secret_key" {
-default = " vnrOphqLKiKdyWi1fVU0g5Y3+nCaarKlYix2dryG"
+  default = "onnOfHl0zHptxdwfRQGbrDP3wPhlhMbMzLaWxpjU"
 }
 
 variable "aws_region" {
-default = "us-west-2"
+  default = "us-west-2"
 }
+
+variable "instance_type" {
+  default = "t2.micro"
+}
+
+variable "ami" {
+  default = "ami-007c6d3512c600816"
+}
+
+variable "key_name" {
+  default = "demo_terra"
+}
+
